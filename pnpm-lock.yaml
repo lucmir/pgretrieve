@@ -18,6 +18,19 @@ importers:
         specifier: ^5.1.0
         version: 5.1.0(@types/node@26.6.6)(vite@8.3.8(@types/node@26.6.6)(esbuild@0.28.2))
 
+  examples/playground:
+    dependencies:
+      pg:
+        specifier: ^8.23.1
+        version: 8.23.1
+      pgretrieve:
+        specifier: workspace:*
+        version: link:../../packages/pgretrieve
+    devDependencies:
+      '@types/pg':
+        specifier: ^8.23.1
+        version: 8.23.1
+
   packages/pgretrieve:
     devDependencies:
       '@types/pg':
