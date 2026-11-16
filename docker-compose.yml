@@ -6,4 +6,4 @@ services:
       POSTGRES_PASSWORD: postgres
       POSTGRES_DB: pgretrieve
     ports:
-      - "5432:5432"
+      - "5442:5432"
