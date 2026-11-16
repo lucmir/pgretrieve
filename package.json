@@ -7,7 +7,8 @@
     "typecheck": "pnpm -r typecheck",
     "test": "pnpm -r test",
     "db:up": "docker compose up -d",
-    "db:down": "docker compose down"
+    "db:down": "docker compose down",
+    "play": "pnpm --filter pgretrieve build && pnpm --filter playground play"
   },
   "devDependencies": {
     "@types/node": "^26.6.6",
